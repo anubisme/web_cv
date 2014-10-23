@@ -1,0 +1,294 @@
+/* https://color.adobe.com/fr/Flat-UI-Kit-3-color-theme-4434354/
+
+#2f4f4f Darkslategray
+#a9a9a9 Darkgray
+#fffafa Snow
+#00ced1 Darkturquoise
+#ff7f50 Coral
+
+*/
+
+
+											/* MENU */
+
+
+											
+/* #logo, #menu {
+	display: inline;
+} */
+
+
+body{
+font-family: 'Dosis', sans-serif;
+}
+
+/* nav ul li{
+display:inline;
+text-transform:uppercase;
+font-family:courier;
+text-decoration:none;
+margin-right:50px;
+} */
+
+.list-inline{
+text-transform:uppercase;
+}
+
+li{
+font-size:1.3em;
+}
+
+p{
+font-size:1.3em;
+}
+
+
+a{
+text-decoration:none;
+color:white;
+}
+
+a:hover{
+color:#00ced1;
+}
+
+a:link{
+text-decoration:none;
+}
+
+.a_fond_blanc{
+text-decoration:none;
+color:black;
+font-weight:bold;
+}
+
+.menu{
+background:url(img/brick_black.jpg);
+text-align:center;
+padding-top:20px;
+}
+
+.suppr_marge{
+	padding-left:0px;
+}
+
+h1{ 
+margin:0px;
+padding:0px; /* Suppresion marges */
+font-size:70px;
+/* font-weight:900; */
+text-transform:uppercase;
+font-family: 'Titillium Web', sans-serif;
+}
+
+p{ 
+margin:0px;
+padding:0px; /* Suppresion marges */
+}
+
+.blanc_noir{
+background-color:black;
+color:white;
+}
+
+.bleu_noir{
+color:#00ced1;
+background-color:black;
+}
+
+
+.marge_bas{
+margin-bottom:20px;
+}
+
+.marge_haut{
+margin-top:20px;
+}
+
+ul{ 
+margin:0px;
+padding:0px; /* Suppresion marges */
+list-style-type:none;
+}
+
+.blue{
+color:#0b9dbf;
+}
+
+.white{
+color:white;
+}
+
+.gras{
+font-weight:bold;
+}
+
+#centre{
+/* display: block; */
+margin-left: auto;
+margin-right: auto;
+/* margin-bottom: */
+}
+
+#centre2{
+/* display: block; */
+margin-left: auto;
+margin-right: auto;
+/* margin-bottom: */
+}
+
+
+#home {
+background:url(img/brick_black.jpg);
+}
+
+#situation {
+background:url(img/brick_grey.jpg);
+}
+
+#experience {
+background:url(img/brick_blue.jpg);
+}
+
+#formation {
+background:url(img/brick_black.jpg);
+}
+
+#divers {
+background:url(img/brick_grey.jpg);
+}
+
+
+
+.section{
+margin-left:200px;
+margin-right:200px;
+padding-top:100px;
+padding-bottom:100px;
+}
+
+
+
+
+											/* Situation professionnelle */
+
+
+											
+
+
+											
+.statut{
+
+}
+
+
+
+
+
+
+
+
+											/* RESPONSIVE */
+
+
+											
+
+
+											
+#centre {
+	display: none;
+}
+
+@media (min-width: 1024px) {
+	#centre {
+		display: block;
+	}
+}
+
+
+@media (max-width:320px) {  /*small mobile*/
+  h1 {
+    font-size: 2em;
+  }
+		h2 {
+		font-size: 1.4em;
+	  }
+		  h3 {
+			font-size: 1.2em;
+		  }
+  
+  	.section{
+	margin-left:10px;
+	margin-right:10px;
+	padding-top:10px;
+	padding-bottom:10px;}
+		li {
+	padding-bottom:10px;
+	}
+	}
+@media (min-width:321px) and (max-width:959px) {  /*tablet*/
+  h1 {
+    font-size: 2em;
+  }
+  
+    h2 {
+    font-size: 1,6em;
+  }
+  		  h3 {
+			font-size: 1.5em;
+		  }
+  	.section{
+	margin-left:50px;
+	margin-right:50px;
+	padding-top:25px;
+	padding-bottom:25px;}
+	
+	li {
+	padding-bottom:10px;
+	}
+	
+}
+
+@media (min-width:960px) and (max-width:1599px) {  /*desktop*/
+  h1 {
+    font-size: 3em;
+  }
+  
+    h2 {
+    font-size: 2.3em;
+  }
+  		  h3 {
+			font-size: 1.7em;
+		  }
+  	.section{
+	margin-left:150px;
+	margin-right:150px;
+	padding-top:75px;
+	padding-bottom:75px;}
+	
+		#list-size{
+	font-size:1.3em;
+	}
+}
+@media (min-width:1600px) {  /*desktop and tv*/
+  h1 {
+    font-size: 4em;
+  }
+  
+    h2 {
+    font-size: 3em;
+  }
+  		  h3 {
+			font-size: 2em;
+		  }
+	.section{
+	margin-left:200px;
+	margin-right:200px;
+	padding-top:100px;
+	padding-bottom:100px;}
+	
+	#list-size{
+	font-size:1.5em;
+	}
+}
+
