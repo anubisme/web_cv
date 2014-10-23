@@ -9,15 +9,13 @@
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="stylesheet_responsive.css" />
 	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,900' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-	<nav class="menu">
+	<!-- <nav class="menu">
 	<div id="logo"><a href="#home"><img src="img/top_logo.png" alt="François KERLOCH"></a></div>
    
 	   <ul class="list-inline" id="list-size">
@@ -27,7 +25,36 @@
 		  <li><a href="#formation">Formations</a></li>
 		  <li><a href="#divers">Divers</a></li>
 	   </ul>
-	</nav>
+	</nav> -->
+	
+	
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="fond">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!-- <div id="logo"><a href="#home"><img src="img/top_logo.png" alt="François KERLOCH"></a></div> -->
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+		  <li><a href="#home">Présentation</a></li>
+		  <li><a href="#situation">Situation profesionnelle</a></li>
+		  <li><a href="#experience">Expériences</a></li>
+		  <li><a href="#formation">Formations</a></li>
+		  <li><a href="#divers">Divers</a></li>
+		  <li><a href="http://blog.kerlo.ch">BLOG</a></li>
+      </ul>
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+	
    
    <!-- PRESENTATION -->
    
@@ -76,7 +103,7 @@
          
          <div class="container">
             <div class="row">
-               <div class="col-md-9 suppr_marge">
+               <div class="col-md-9">
          
          <ul class="marge_haut">
 				<li>Brief Marketing et expression de besoin sur le design, l’ergonomie, le wording, ...</li>
@@ -87,10 +114,20 @@
 				<li>Analyse du trafic et des parcours clients pour un reporting mensuel présenté lors des comités de direction de la page contact.orange.fr</li>
 			</ul>
          
+		 
+		 
+
+		 
+		 
                </div>
          
          	<div class="col-md-3">
             <img src="img/orange.png" class="img-responsive">
+			
+			
+			
+			<!-- <p class="text-center more">En savoir plus</p> -->
+			
             </div>
          
          </div>
@@ -113,6 +150,46 @@
 				<li>Gestion stratégique, administrative et financière, attribution de budgets par projet</li>
 				<li>Gestion d’une équipe de développeurs, intégrateurs, designers, dans un environnement de télétravail</li>
 			</ul>
+			
+			
+			
+			
+			
+					 <!-- Button trigger modal -->
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Plus d'informations
+</button>
+
+<!-- Modal displayed when a user clicks on the upper button -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">TechView</h4>
+      </div>
+      <div class="modal-body">
+        <p>TechView est une société que j'ai co-créé avec deux amis en 2009. Notre ambition initiale était de proposer un service de Poker gratuit à des joueurs désireux de découvrir ce sport. Ce site a vu le jour sous le nom de <a href="http://www.pokcity.com" target="_blank">PokCity</a>, site encore actif à ce jour.</p>
+		<p>Après l'ouverture de PokCity, nous avons souhaité diversifier notre portefeuille de produits, et nous sommes lancés dans de nouveaux secteurs du web : cashback, affiliation, paiement sponsorisé, etc.</p>
+		<p>Cette belle aventure prend fin à la rentrée 2014 quand, d'un commun accord, nous décidons de prendre des chemins différents, incompatibles avec la poursuite d'une vie entrepreneuriale. </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+  </div>
+</div>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
                </div>
             <div class="col-md-3">
                <img src="img/techview.png" class="img-responsive">
@@ -148,11 +225,88 @@
 		<div class="section">
 			<h1 class="blue">Formation</h1>
 				<ul class="white">
-				  <li class="marge_haut"><span class="gras">MASTER GRANDE ECOLE</span><br /><span>Septembre 2013 - Septembre 2015</span><br /><span>TELECOM ECOLE DE MANAGEMENT (EVRY, 91)</span></li>
-				  <li class="marge_haut"><span class="gras">SEMESTRE UNIVERSITAIRE</span><br /><span>Mars 2014 – Août 2014</span><br /><span>UADE, BUENOS AIRES, ARGENTINE</span></li>
-				  <li class="marge_haut"><span class="gras">LICENCE PROFESIONNELLE GRC ET E-COMMERCE</span><br /><span>Juin 2013, Mention Bien</span><br /><span>IUT D’ALENCON (ALENCON, 61)</span></li>
-				  <li class="marge_haut"><span class="gras">DUT TECHNIQUES DE COMMERCIALISATION</span><br /><span>Juin 2012</span><br /><span>IUT DE METZ (METZ, 57)</span></li>
-				  <li class="marge_haut"><span class="gras">BACCALAUREAT ES</span><br /><span>Juin 2008, Mention Assez Bien</span><br /><span>LYCEE MILITAIRE DE SAINT-CYR (SAINT-CYR L’ECOLE, 78)</span></li>
+				  <li class="marge_haut">
+				  
+				           <div class="container">
+							<div class="row">
+							  <div class="col-md-9">
+				  
+				  <span class="gras">MASTER GRANDE ECOLE</span><br /><span>Septembre 2013 - Septembre 2015</span><br /><span>TELECOM ECOLE DE MANAGEMENT (EVRY, 91)</span>
+				  
+							  </div>
+								<div class="col-md-3">
+									<a href="http://www.telecom-em.eu" "target=_blank"><img src="img/telecom.png" class="img-responsive"></a>
+								</div>
+							</div>
+							</div>
+				  
+				  
+				  </li>
+				  
+				  <li class="marge_haut">
+				  
+						   <div class="container">
+							<div class="row">
+							  <div class="col-md-9">
+				  
+				  <span class="gras">SEMESTRE UNIVERSITAIRE</span><br /><span>Mars 2014 – Août 2014</span><br /><span>UADE, BUENOS AIRES, ARGENTINE</span>
+				  
+								</div>
+								<div class="col-md-3">
+									<a href="http://www.uade.edu.ar" "target=_blank"><img src="img/uade.png" class="img-responsive"></a>
+								</div>
+								</div>
+								</div>
+								
+				  </li>
+				  
+				  <li class="marge_haut">
+				  
+						   <div class="container">
+							<div class="row">
+							  <div class="col-md-9">
+				  
+				  <span class="gras">LICENCE PROFESIONNELLE GRC ET E-COMMERCE</span><br /><span>Juin 2013, Mention Bien</span><br /><span>IUT D’ALENCON (ALENCON, 61)</span>
+				  
+								</div>
+								<div class="col-md-3">
+									<a href="http://www.unicaen.fr/iutalencon" target="_blank"><img src="img/caen.png" class="img-responsive"></a>
+								</div>
+								</div>
+								</div>
+				  
+				  </li>
+				  <li class="marge_haut">
+							<div class="container">
+							<div class="row">
+							  <div class="col-md-9">
+				  
+				  <span class="gras">DUT TECHNIQUES DE COMMERCIALISATION</span><br /><span>Juin 2012</span><br /><span>IUT DE METZ (METZ, 57)</span>
+								</div>
+								<div class="col-md-3">
+								<a href="https://www.iut-metz.univ-lorraine.fr/" target="_blank"><img src="img/metz.png" class="img-responsive"></a>
+								
+								</div>
+								</div>
+								</div>
+				  
+				  
+				  </li>
+				  <li class="marge_haut">
+							<div class="container">
+							<div class="row">
+							<div class="col-md-9">
+				  <span class="gras">BACCALAUREAT ES</span><br /><span>Juin 2008, Mention Assez Bien</span><br /><span>LYCEE MILITAIRE DE SAINT-CYR (SAINT-CYR L’ECOLE, 78)</span>
+							</div>
+								<div class="col-md-3">
+								<a href="http://www.lm-st-cyr.fr" target="_blank"><img src="img/cyr.png" class="img-responsive"></a>
+								
+								</div>
+								</div>
+								</div>
+				  
+				  
+				  </li>
 				 </ul>
 				 </div>
 		</section>
@@ -164,5 +318,9 @@
 			<h1>Divers</h1>
 			</div>
 		</section>
+		
+		<!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script
 </body>
 </html>

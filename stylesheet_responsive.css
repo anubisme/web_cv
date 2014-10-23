@@ -18,6 +18,8 @@
 } */
 
 
+
+
 body{
 font-family: 'Dosis', sans-serif;
 }
@@ -62,15 +64,36 @@ color:black;
 font-weight:bold;
 }
 
+.more{
+font-weight:bold;
+}
+
+#fond{
+background-color:black;
+}
+
+
+.navbar-default {
+background-color: black;
+border-color: white;
+background-image:none;
+}
+
+.navbar-brand
+{
+    
+  
+
+ 
+   
+}
+
 .menu{
 background:url(img/brick_black.jpg);
 text-align:center;
 padding-top:20px;
 }
 
-.suppr_marge{
-	padding-left:0px;
-}
 
 h1{ 
 margin:0px;
