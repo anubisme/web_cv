@@ -1,51 +1,111 @@
 ﻿<html>
 <head>
 	<title>CV de François KERLOCH</title>
-   <!-- http://www.guillaumelorain.com/cv/ -->
+    <!-- http://www.guillaumelorain.com/cv/ -->
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+	<link rel="stylesheet" type="text/css" href="stylesheet_responsive.css" />
 	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,900' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-	<nav class="menu">
+	<!-- <nav class="menu">
 	<div id="logo"><a href="#home"><img src="img/top_logo.png" alt="François KERLOCH"></a></div>
    
-	   <ul>
+	   <ul class="list-inline" id="list-size">
 		  <li><a href="#home">Présentation</a></li>
 		  <li><a href="#situation">Situation profesionnelle</a></li>
 		  <li><a href="#experience">Expériences</a></li>
 		  <li><a href="#formation">Formations</a></li>
 		  <li><a href="#divers">Divers</a></li>
 	   </ul>
-	</nav>
+	</nav> -->
+	
+	
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="fond">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!-- <div id="logo"><a href="#home"><img src="img/top_logo.png" alt="François KERLOCH"></a></div> -->
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+		  <li><a href="#home">Présentation</a></li>
+		  <li><a href="#situation">Situation profesionnelle</a></li>
+		  <li><a href="#experience">Expériences</a></li>
+		  <li><a href="#formation">Formations</a></li>
+		  <li><a href="#divers">Divers</a></li>
+		  <li><a href="http://blog.kerlo.ch">BLOG</a></li>
+      </ul>
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+	
    
    <!-- PRESENTATION -->
    
    <section id="home">
 		<div class="section">
-			<img src="img/prez.png" alt="François KERLOCH" id="centre">
+			<!-- <img src="img/prez.png" alt="François KERLOCH" id="centre" class="img-top"> -->
+			<img class="img-responsive" src="img/prez.png" alt="François KERLOCH" id="centre2">
 		</div>
    </section>
+   
+   
+
    
    <!-- SITUATION PROFESSIONNELLE -->
    
    <section id="situation">
+
 	   <div class="section">
-			<h2>Situation professionnelle</h2>
-				<span style="background-color:black"><span style="color:white">STATUT : </span><span style="color:#00ced1">EN POSTE</span></span>
-				<p>Depuis septembre 2014, je suis chef de projet relation client Web 2.0 au sein de la Direction Relation Client d'Orange France. Je suis notamment en charge de la rubrique Contact d'Orange.</p>
+			<h1 class="marge_bas">Situation professionnelle</h1>
+	<div class="container">
+	<div class="row">
+    <div class="col-md-6">
+				<h3 class="marge_bas"><span class="blanc_noir">STATUT : </span><span class="bleu_noir">EN POSTE</span></h3>
+				<h3 class="marge_bas"><span class="blanc_noir">EMPLOI : </span><span class="bleu_noir">Chef de projet Relation Client Web 2.0 @ Orange France</span></h3>
+				<p>--------------</p>
+				<p>Depuis septembre 2014, je suis chef de projet au sein de la Direction Relation Client d'Orange France. Je suis notamment en charge de la rubrique <a href="http://contact.orange.fr" class="a_fond_blanc" target="_blank">Contact</a> d'Orange.</p>
+	
+			<p>--------------</p>
 		</div>
+	<div class="col-md-6">
+		<img src="img/situation.png" class="img-responsive" id="centre2">
+	</div>
+	</div>
+	</div>
+	</div>
    </section>
    
    <!-- EXPERIENCE -->
    
 	<section id="experience">
 	<div class="section">
-	<h2 class="white">Expérience professionnelle</h2>
+	<h1 class="white">Expérience professionnelle</h1>
    
-		<h3>Chef de projet Relation Client Web 2.0 | ORANGE | SEPTEMBRE 2014 - SEPTEMBRE 2015</h3>
-			<ul>
+		<h2 class="gras">Chef de projet Relation Client Web 2.0</h2><span class="white"><span class="gras">ORANGE</span>, SEPTEMBRE 2014 - SEPTEMBRE 2015</span>
+			
+         
+         <div class="container">
+            <div class="row">
+               <div class="col-md-9">
+         
+         <ul class="marge_haut">
 				<li>Brief Marketing et expression de besoin sur le design, l’ergonomie, le wording, ...</li>
 				<li>Mise en ligne et lancement du site et de l’application</li>
 				<li>Gestion des parcours clients & étude d'amélioration en transverse avec les domaines processus et les responsables contacts et sites web (+60 interlocuteurs)</li>
@@ -53,10 +113,63 @@
 				<li>Optimisation du référencement web (SEO)</li>
 				<li>Analyse du trafic et des parcours clients pour un reporting mensuel présenté lors des comités de direction de la page contact.orange.fr</li>
 			</ul>
-   
-		<h3>Co-fondateur et dirigeant | TECHVIEW SAS | AVRIL 2009 – AOUT 2014 5 ANS ET 4 MOIS</h3>
+         
+		 
+		 
+		 <!-- Button trigger modal -->
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Plus d'informations
+</button>
 
-			<ul>
+<!-- Modal displayed when a user clicks on the upper button -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Orange</h4>
+      </div>
+      <div class="modal-body">
+        <p>Orange, anciennement France Télécom4, est une entreprise française de télécommunications. Elle emploie près de 172 000 personnes, dont 105 000 en France, et sert près de 226 millions de clients dans le monde.</p>
+
+<p>Orange est à l'origine une entreprise de télécommunication d'origine britannique devenue, en 1999, la filiale de Mannesmann puis, en 2000, celle du groupe France Télécom. France Télécom, l'opérateur téléphonique historique en France, s'est internationalisé à la suite du rachat d'Orange. Le nouveau groupe ainsi créé est présent notamment en Europe, en Afrique et dans les Caraïbes. À partir du rachat d'Orange, la plupart des marques du groupe France Télécom sont passées sous la marque Orange. Orange depuis le 1er juillet 2013 est devenu le nouveau nom de France Télécom.</p>
+
+<p>En 2010, Orange a réalisé un chiffre d'affaires de 45,503 milliards d'euros pour l'ensemble de ses activités et comptait 209 millions de clients dans le monde (+6 % par rapport à 2009)5 dont plus de 150 millions de clients mobiles (+9,1 % par rapport à 2009)5 et 13,7 millions de clients haut débit ADSL (+3,4 % par rapport à 2009)5.</p>
+
+<p>Orange élargit ses activités à la vente de contenu (musique, cinéma, téléchargement…), à l'e-commerce, à la publicité en ligne, aux solutions M2M, domotique, et de téléassistance. Depuis février 2012 et le passage sous la marque Orange des activités de téléphonie fixe, la totalité des offres commercialisées par France Télécom utilise cette marque, qui, le 1er juillet 2013, est devenue la nouvelle appellation du groupe.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+  </div>
+</div>
+		 
+		 
+               </div>
+         
+         	<div class="col-md-3">
+            <img src="img/orange.png" class="img-responsive">
+			
+			
+			
+			<!-- <p class="text-center more">En savoir plus</p> -->
+			
+            </div>
+         
+         </div>
+         </div>
+         
+
+         
+		<h2 class="gras">Co-fondateur et dirigeant</h2><span class="white"><span class="gras">TECHVIEW SAS</span>, AVRIL 2009 – AOUT 2014 5 ANS ET 4 MOIS</span>
+
+      
+         <div class="container">
+            <div class="row">
+               <div class="col-md-9">
+			     
+         <ul class="marge_haut">
 				<li>Exploitation d’applications web orientées B2B (monnaie virtuelle -Virtuapass.com- et plateforme d’affiliation -Wileed.com-)</li>
 				<li>Exploitation d’applications web orientées B2C (jeux en ligne -PokCity.com, CashPok.com-, Cashback -SponsoKdo.com</li>
 				<li>KronoCash.com- et jeux-concours -Mega-concours.eu-)</li>
@@ -64,26 +177,163 @@
 				<li>Gestion stratégique, administrative et financière, attribution de budgets par projet</li>
 				<li>Gestion d’une équipe de développeurs, intégrateurs, designers, dans un environnement de télétravail</li>
 			</ul>
+			
+			
+			
+			
+			
+					 <!-- Button trigger modal -->
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Plus d'informations
+</button>
 
-		<h3>Fondateur et dirigeant | INNOTECH67 SARL | AOUT 2008 – MARS 2009 7 MOIS</h3>
+<!-- Modal displayed when a user clicks on the upper button -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">TechView</h4>
+      </div>
+      <div class="modal-body">
+        <p>TechView est une société que j'ai co-créé avec deux amis en 2009. Notre ambition initiale était de proposer un service de Poker gratuit à des joueurs désireux de découvrir ce sport. Ce site a vu le jour sous le nom de <a href="http://www.pokcity.com" target="_blank">PokCity</a>, site encore actif à ce jour.</p>
+		<p>Après l'ouverture de PokCity, nous avons souhaité diversifier notre portefeuille de produits, et nous sommes lancés dans de nouveaux secteurs du web : cashback, affiliation, paiement sponsorisé, etc.</p>
+		<p>Cette belle aventure prend fin à la rentrée 2014 quand, d'un commun accord, nous décidons de prendre des chemins différents, incompatibles avec la poursuite d'une vie entrepreneuriale. </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+  </div>
+</div>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+               </div>
+            <div class="col-md-3">
+               <img src="img/techview.png" class="img-responsive">
+            </div>
+               </div>
+            </div>
+         
+         
+         
+		<h2 class="gras">Fondateur et dirigeant</h2><span class="white"><span class="gras">INNOTECH67 SARL</span>, AOUT 2008 – MARS 2009 7 MOIS</span>
 
-		   <ul>
+         <div class="container">
+            <div class="row">
+               <div class="col-md-9">
+      
+		   <ul class="marge_haut">
 			  <li>Exploitation et monétisation d’une application Web de jeu en ligne (KdoCity.com).</li>
 		   </ul>
-		   </div>
+         
+               </div>
+         <div class="col-md-3">
+         <img src="img/innotech67.png" class="img-responsive">
+         </div>
+         </div>
+         </div>
+         </div>
+		   
 	</section>
 	
 	<!-- FORMATION -->
 	
 		<section id="formation">
 		<div class="section">
-			<h2 class="blue">Formation</h2>
+			<h1 class="blue">Formation</h1>
 				<ul class="white">
-				  <li>MASTER GRANDE ECOLE | Septembre 2013 - Septembre 2015 | TELECOM ECOLE DE MANAGEMENT (EVRY, 91)</li>
-				  <li>SEMESTRE UNIVERSITAIRE | Mars 2014 – Août 2014 | UADE, BUENOS AIRES, ARGENTINE</li>
-				  <li>LICENCE PROFESIONNELLE GRC ET E-COMMERCE | Juin 2013, Mention Bien | IUT D’ALENCON (ALENCON, 61)</li>
-				  <li>DUT TECHNIQUES DE COMMERCIALISATION | Juin 2012 | IUT DE METZ (METZ, 57)</li>
-				  <li>BACCALAUREAT ES | Juin 2008, Mention Assez Bien | LYCEE MILITAIRE DE SAINT-CYR (SAINT-CYR L’ECOLE, 78)</li>
+				  <li class="marge_haut">
+				  
+				           <div class="container">
+							<div class="row">
+							  <div class="col-md-9">
+				  
+				  <span class="gras">MASTER GRANDE ECOLE</span><br /><span>Septembre 2013 - Septembre 2015</span><br /><span>TELECOM ECOLE DE MANAGEMENT (EVRY, 91)</span>
+				  
+							  </div>
+								<div class="col-md-3">
+									<a href="http://www.telecom-em.eu" "target=_blank"><img src="img/telecom.png" class="img-responsive"></a>
+								</div>
+							</div>
+							</div>
+				  
+				  
+				  </li>
+				  
+				  <li class="marge_haut">
+				  
+						   <div class="container">
+							<div class="row">
+							  <div class="col-md-9">
+				  
+				  <span class="gras">SEMESTRE UNIVERSITAIRE</span><br /><span>Mars 2014 – Août 2014</span><br /><span>UADE, BUENOS AIRES, ARGENTINE</span>
+				  
+								</div>
+								<div class="col-md-3">
+									<a href="http://www.uade.edu.ar" "target=_blank"><img src="img/uade.png" class="img-responsive"></a>
+								</div>
+								</div>
+								</div>
+								
+				  </li>
+				  
+				  <li class="marge_haut">
+				  
+						   <div class="container">
+							<div class="row">
+							  <div class="col-md-9">
+				  
+				  <span class="gras">LICENCE PROFESIONNELLE GRC ET E-COMMERCE</span><br /><span>Juin 2013, Mention Bien</span><br /><span>IUT D’ALENCON (ALENCON, 61)</span>
+				  
+								</div>
+								<div class="col-md-3">
+									<a href="http://www.unicaen.fr/iutalencon" target="_blank"><img src="img/caen.png" class="img-responsive"></a>
+								</div>
+								</div>
+								</div>
+				  
+				  </li>
+				  <li class="marge_haut">
+							<div class="container">
+							<div class="row">
+							  <div class="col-md-9">
+				  
+				  <span class="gras">DUT TECHNIQUES DE COMMERCIALISATION</span><br /><span>Juin 2012</span><br /><span>IUT DE METZ (METZ, 57)</span>
+								</div>
+								<div class="col-md-3">
+								<a href="https://www.iut-metz.univ-lorraine.fr/" target="_blank"><img src="img/metz.png" class="img-responsive"></a>
+								
+								</div>
+								</div>
+								</div>
+				  
+				  
+				  </li>
+				  <li class="marge_haut">
+							<div class="container">
+							<div class="row">
+							<div class="col-md-9">
+				  <span class="gras">BACCALAUREAT ES</span><br /><span>Juin 2008, Mention Assez Bien</span><br /><span>LYCEE MILITAIRE DE SAINT-CYR (SAINT-CYR L’ECOLE, 78)</span>
+							</div>
+								<div class="col-md-3">
+								<a href="http://www.lm-st-cyr.fr" target="_blank"><img src="img/cyr.png" class="img-responsive"></a>
+								
+								</div>
+								</div>
+								</div>
+				  
+				  
+				  </li>
 				 </ul>
 				 </div>
 		</section>
@@ -92,8 +342,12 @@
 	
 		<section id="divers">
 		<div class="section">
-			<h2>Divers</h2>
+			<h1>Divers</h1>
 			</div>
 		</section>
+		
+		<!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script
 </body>
 </html>
